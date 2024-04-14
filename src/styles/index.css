@@ -1,12 +1,91 @@
-
-/* 
-
-    You can write your own styles here...
+body {
+    margin-top: 80px;
+    background-color: black;
+  }
+  
+  
+    h1 {
+      color: rgb(221, 211, 211);
+      font-size: 5em;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 100;
+  margin-left: 250px;
+     
+    }
+    p{
+      color:rgb(201, 197, 197);
+      font-size: 25px;
+    }
+  
+  .text-center{
+    margin: auto;
+    width: 650px;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    border: 1px solid #ccc;
+    margin-top: 60px;
+    flex-grow: 1;
+    max-height: 400px; /* ajusta este valor según tu diseño */
+    overflow-y: auto;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    border-bottom: 1px solid #ccc;
+    box-shadow: 5px 0 5px -5px rgb(218, 215, 215), 
+      -5px 0 5px -5px rgba(218, 212, 212, 0.2); 
+      margin-top: 15px;
+      margin-left: -360px;
+  }
+  
+  
+  
+    .sheet1 { 
+     background-color:white;
+     width: 640px;
+     height: 7px;
+     margin: auto;
+     border-top: none;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .sheet2 { 
+      background-color:white;
+      width: 630px;
+      height: 5px;
+     margin: auto;
+     border-left: 1px solid #ccc;
+     border-right: 1px solid #ccc;
+     border-bottom: 1px solid #ccc;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+     }
+  
+  
+     .padre{
+      background-color: white;
+      width: 750px;
+      height: 650px;
+      margin: auto;  
+     }
+  
+     .text-center input {
+      text-align: left;
+      margin-left: -240px;
+      border: none;
+      padding-top: 5px;
+      margin-top: 10px;
+      outline: none;
+      color: #ccc;
+      font-size: 25px;
+    }
+    .count-task{
+      margin-left: -500px;
+      padding-top: 14px;
+      color: #ccc;
+      font-size: 15px;
+    }
