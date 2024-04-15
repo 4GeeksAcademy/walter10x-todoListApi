@@ -10,4 +10,4 @@ import Home from "./component/home.jsx";
 import TodoListApi from "./component/TodoLisApi.jsx";
 
 //render your react application
-ReactDOM.render(<TodoListApi />, document.querySelector("#app"));
+ReactDOM.render(<TodoListApi/>, document.querySelector("#app"));
