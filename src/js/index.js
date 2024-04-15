@@ -6,7 +6,7 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+
 import TodoListApi from "./component/TodoLisApi.jsx";
 
 //render your react application

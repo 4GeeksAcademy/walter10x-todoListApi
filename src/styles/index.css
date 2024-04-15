@@ -4,15 +4,17 @@ body {
 }
 
 h1 {
+ padding-top: 50px;
   color: rgb(221, 211, 211);
   font-size: 5em;
   font-family: "Times New Roman", Times, serif;
   font-weight: 100;
-  margin-left: 250px;
+  margin-left: 260px;
 }
 p {
   color: rgb(201, 197, 197);
   font-size: 25px;
+  margin-left: 400px;
 }
 
 .text-center {
@@ -83,3 +85,8 @@ p {
   color: #ccc;
   font-size: 15px;
 }
+
+.task-text {
+  margin-right: 80px; 
+}
+
